@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -49,7 +50,7 @@
         <div class="choose-language">Choose a language</div>
         <div class="language-buttons">
             <a href="https://tally.so/r/w7adg6" class="language-button">Français</a>
-            <a href="https://tally.so/r/wo5DR1" class="language-button">arabic</a>
+            <a href="https://tally.so/r/wo5DR1" class="language-button">العربية</a>
         </div>
     </div>
 </body>
