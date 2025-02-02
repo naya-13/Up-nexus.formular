@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -5,13 +6,13 @@
     <title>Language Selection</title>
     <style>
         body {
-            font-family: Arial , sans-serif;
+            font-family: Arial, sans-serif;
             display: flex;
             justify-content: center;
             align-items: center;
             height: 100vh;
             flex-direction: column;
-            background-color:hsl(209, 11.40%, 63.70%);
+            background-color: #f4f4f4;
         }
         .container {
             text-align: center;
@@ -21,7 +22,7 @@
             margin-bottom: 20px;
         }
         .choose-language {
-            font-size: 1.5em;
+            font-size: 1.2em;
             margin-bottom: 20px;
         }
         .language-buttons {
@@ -31,22 +32,22 @@
         .language-button {
             padding: 10px 20px;
             font-size: 1em;
-            color: black;
-            background-color:rgb(231, 222, 95);
+            color: white;
+            background-color: #007BFF;
             border: none;
             border-radius: 5px;
             cursor: pointer;
             text-decoration: none;
         }
         .language-button:hover {
-            background-color:rgba(202, 191, 34, 0.7);
+            background-color: #0056b3;
         }
     </style>
 </head>
 <body>
     <div class="container">
         <div class="welcome">WELCOME</div>
-        <div class="choose-language">Choose a language</div>
+        <div class="choose-language">Choose the language</div>
         <div class="language-buttons">
             <a href="https://tally.so/r/wo5DR1" class="language-button">العربية</a>
             <a href="https://tally.so/r/w7adg6" class="language-button">Français</a>
