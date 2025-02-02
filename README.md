@@ -1,60 +1,57 @@
-import React from 'react';
-
-function App() {
-  return (
-    <div style={styles.container}>
-      <div style={styles.welcome}>WELCOME</div>
-      <div style={styles.chooseLanguage}>Choose the language</div>
-      <div style={styles.languageButtons}>
-        <a
-          href="https://tally.so/r/wo5DR1"
-          style={styles.languageButton}
-        >
-          العربية
-        </a>
-        <a
-          href="https://tally.so/r/w7adg6"
-          style={styles.languageButton}
-        >
-          Français
-        </a>
-      </div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Language Selection</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+            background-color: #f4f4f4;
+        }
+        .container {
+            text-align: center;
+        }
+        .welcome {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+        .choose-language {
+            font-size: 1.2em;
+            margin-bottom: 20px;
+        }
+        .language-buttons {
+            display: flex;
+            gap: 20px;
+        }
+        .language-button {
+            padding: 10px 20px;
+            font-size: 1em;
+            color: white;
+            background-color: #007BFF;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+        .language-button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="welcome">WELCOME</div>
+        <div class="choose-language">Choose the language</div>
+        <div class="language-buttons">
+            <a href="https://tally.so/r/wo5DR1" class="language-button">العربية</a>
+            <a href="https://tally.so/r/w7adg6" class="language-button">Français</a>
+        </div>
     </div>
-  );
-}
-
-const styles = {
-  container: {
-    fontFamily: 'Arial, sans-serif',
-    display: 'flex',
-    justifyContent: 'center',
-    alignItems: 'center',
-    height: '100vh',
-    flexDirection: 'column',
-    backgroundColor: '#f4f4f4',
-  },
-  welcome: {
-    fontSize: '2.5em',
-    marginBottom: '20px',
-  },
-  chooseLanguage: {
-    fontSize: '1.2em',
-    marginBottom: '20px',
-  },
-  languageButtons: {
-    display: 'flex',
-    gap: '20px',
-  },
-  languageButton: {
-    padding: '10px 20px',
-    fontSize: '1em',
-    color: 'white',
-    backgroundColor: '#007BFF',
-    border: 'none',
-    borderRadius: '5px',
-    cursor: 'pointer',
-    textDecoration: 'none',
-  },
-};
-
-export default App;
+</body>
+</html>
