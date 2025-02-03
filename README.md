@@ -40,12 +40,6 @@
             cursor: pointer;
             text-decoration: none;
             margin-bottom: 20px;
-
-        }
-        .language-button:hover {
-            background-color: rgba(202, 191, 34, 0.7);
-        }
-    </style>
 </head>
 <body>
     <div class="container">
