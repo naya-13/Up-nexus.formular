@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Language Selection</title>
     <style>
-        /* التنسيقات العامة */
         body {
             font-family: Arial, sans-serif;
             display: flex;
@@ -20,28 +19,28 @@
 
         .container {
             text-align: center;
-            width: 90%; /* لجعل العرض يتناسب مع الهاتف */
-            max-width: 400px; /* تحديد أقصى عرض */
+            width: 90%;
+            max-width: 400px;
         }
 
         .welcome {
-            font-size: 2em; /* تصغير حجم الخط للهاتف */
+            font-size: 2em;
             margin-bottom: 15px;
         }
 
         .choose-language {
-            font-size: 1.2em; /* تصغير حجم الخط للهاتف */
+            font-size: 1.2em;
             margin-bottom: 20px;
         }
 
         .language-buttons {
             display: flex;
-            flex-direction: column; /* جعل الأزرار تظهر عموديًا */
-            gap: 15px; /* تقليل المسافة بين الأزرار */
+            flex-direction: column;
+            gap: 15px;
         }
 
         .language-button {
-            padding: 12px 24px; /* زيادة الحجم قليلاً */
+            padding: 12px 24px;
             font-size: 1em;
             color: black;
             background-color: rgb(231, 222, 95);
@@ -49,7 +48,7 @@
             border-radius: 5px;
             cursor: pointer;
             text-decoration: none;
-            width: 100%; /* جعل الأزرار تأخذ العرض الكامل */
+            width: 100%;
             text-align: center;
         }
 
@@ -57,18 +56,17 @@
             background-color: rgba(202, 191, 34, 0.7);
         }
 
-        /* Media Query للشاشات الصغيرة (الهواتف) */
         @media (max-width: 600px) {
             .welcome {
-                font-size: 1.8em; /* تصغير حجم الخط أكثر للشاشات الصغيرة */
+                font-size: 1.8em;
             }
 
             .choose-language {
-                font-size: 1em; /* تصغير حجم الخط أكثر للشاشات الصغيرة */
+                font-size: 1em;
             }
 
             .language-button {
-                padding: 10px 20px; /* تصغير حجم الأزرار قليلاً */
+                padding: 10px 20px;
             }
         }
     </style>
