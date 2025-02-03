@@ -6,51 +6,52 @@
     <title>Language Selection</title>
     <style>
         body {
+            font-family: Arial , sans-serif;
             display: flex;
-            flex-direction: column;
             justify-content: center;
             align-items: center;
             height: 100vh;
-            margin: 0;
-            font-family: Arial, sans-serif;
+            flex-direction: column;
+            background-color:hsl(209, 11.40%, 63.70%);
+        }
+        .container {
             text-align: center;
-            background-color: #f8f9fa;
         }
-        h1 {
-            margin-bottom: 10px;
-        }
-        p {
+        .welcome {
+            font-size: 2.5em;
             margin-bottom: 20px;
         }
-        .buttons {
-            display: flex;
-            flex-direction: column;
-            gap: 15px;
+        .choose-language {
+            font-size: 1.5em;
+            margin-bottom: 20px;
         }
-        button {
-            width: 200px;
-            padding: 10px;
-            font-size: 18px;
+        .language-buttons {
+            display: flex;
+            gap: 20px;
+        }
+        .language-button {
+            padding: 10px 20px;
+            font-size: 1em;
+            color: black;
+            background-color:rgb(231, 222, 95);
             border: none;
             border-radius: 5px;
             cursor: pointer;
+            text-decoration: none;
         }
-        .arabic {
-            background-color: #007bff;
-            color: white;
-        }
-        .french {
-            background-color: #007bff;
-            color: white;
+        .language-button:hover {
+            background-color:rgba(202, 191, 34, 0.7);
         }
     </style>
 </head>
 <body>
-    <h1>WELCOME</h1>
-    <p>Choose a language</p>
-    <div class="buttons">
-        <button class="arabic" onclick="window.location.href='https://tally.so/r/wo5DR1'">العربية</button>
-        <button class="french" onclick="window.location.href='https://tally.so/r/w7adg6'">français</button>
+    <div class="container">
+        <div class="welcome">WELCOME</div>
+        <div class="choose-language">Choose a language</div>
+        <div class="language-buttons">
+            <a href="https://tally.so/r/wo5DR1" class="language-button">العربية</a>
+            <a href="https://tally.so/r/w7adg6" class="language-button">Français</a>
+        </div>
     </div>
 </body>
 </html>
