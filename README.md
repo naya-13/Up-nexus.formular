@@ -40,7 +40,7 @@
             color: white;
         }
         .french {
-            background-color: #28a745;
+            background-color: #007bff;
             color: white;
         }
     </style>
